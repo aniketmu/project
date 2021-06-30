@@ -68,7 +68,7 @@ def calculate(T=1,steps = 10,alpha=0.2,c=1):
     plt.xlabel('Theta_steps')
     plt.ylabel('Spectral_radius')
     plt.savefig("./figures/"+str(T)+".jpg")
-    #plt.show()
+    plt.show()
     #plt.clf()
 # end of the function    
 
